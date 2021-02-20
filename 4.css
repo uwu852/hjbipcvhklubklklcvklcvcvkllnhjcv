@@ -1,0 +1,32 @@
+header{
+  background-color: #0000;
+}
+nav{
+  background: #00fff2; 
+}
+.fas{
+  margin-right: 5px;
+}
+.navbar-brand{
+  font-size: 18px;
+    font-weight: 600;
+}
+.nav-link, .dropdown-item{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+nav li{
+  padding: 0 18px;
+}
+nav li.active, nav li.active:hover{
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.carousel a:hover{
+  background: rgba(0,0,0,0.2)
+}
+.carousel-caption p, .carousel-caption h5{
+  color: black;
+}
